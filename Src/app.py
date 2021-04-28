@@ -3,7 +3,6 @@ import numpy as np
 import streamlit as st
 from aiortc.contrib.media import MediaPlayer
 from streamlit_webrtc import VideoTransformerBase, webrtc_streamer
-from streamlit_webrtc import VideoTransformerBase, webrtc_streamer
 import tensorflow as tf
 from tensorflow import keras 
 
@@ -68,4 +67,3 @@ class VideoTransformer(VideoTransformerBase):
 webrtc_streamer(key="example", video_transformer_factory=VideoTransformer)
         
          
-

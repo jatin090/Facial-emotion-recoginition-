@@ -1,6 +1,5 @@
 import cv2
 import numpy as np
-import streamlit as st
 from aiortc.contrib.media import MediaPlayer
 from streamlit_webrtc import VideoTransformerBase, webrtc_streamer
 import tensorflow as tf

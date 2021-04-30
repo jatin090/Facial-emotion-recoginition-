@@ -67,3 +67,6 @@ class VideoTransformer(VideoTransformerBase):
 webrtc_streamer(key="example", video_transformer_factory=VideoTransformer)
         
          
+from pyngrok import ngrok
+url = ngrok.connect(port=8502)
+url

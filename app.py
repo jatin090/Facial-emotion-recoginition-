@@ -65,8 +65,3 @@ class VideoTransformer(VideoTransformerBase):
             cv2.putText(img,label, (x+20, y-40), cv2.FONT_HERSHEY_SCRIPT_COMPLEX,2,(92,79,19), 2)    
         return img
 webrtc_streamer(key="example", video_transformer_factory=VideoTransformer)
-        
-         
-from pyngrok import ngrok
-url = ngrok.connect(port=8502)
-url

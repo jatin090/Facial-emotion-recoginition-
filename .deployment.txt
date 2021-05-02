@@ -1,2 +1,2 @@
 [config]
-command = sh setup.sh && streamlit run app.py
+command = streamlit run app.py

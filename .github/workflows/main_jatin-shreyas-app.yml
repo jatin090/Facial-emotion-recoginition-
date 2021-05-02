@@ -59,4 +59,4 @@ jobs:
         with:
           app-name: 'jatin-shreyas-app'
           slot-name: 'production'
-          publish-profile: ${{ secrets.AzureAppService_PublishProfile_8be95f6edf49427d93d2dbc173722191 }}
+          publish-profile: ${{ secrets.AzureAppService_PublishProfile_484a58acaa3e4965995796cf1aa13403 }}
